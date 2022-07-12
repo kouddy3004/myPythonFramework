@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +128,36 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Footer
+
+lock
+.iml
+.pyc
+.log
+.DS_Store
+__pycache
+.idea
+.vscode
+**/reports
+**/reports/*
+**/.pytest_cache
+**/.pytest_cache/*
+*.logs
+**.logs
+**/webDrivers.exe
+**/webDrivers.exe/*
+**/instant_client
+**/instant_client/*
+**/__pycache__
+**/__pycache__/*
+**/webDrivers
+**/webDrivers/*
+**/utils/webUiResources/webDrivers/*
+**/utils/webUiResources/webDrivers
+**/cookies
+**/cookies/*
+**/geckodriver.log
+geckodriver.log
+**/artifacts
+**/artifacts/*
+__pycache__/
