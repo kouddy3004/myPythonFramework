@@ -1,0 +1,303 @@
+{
+  "asOfDate": "2021-01-31",
+  "calculationDateRange": 0,
+  "marketValueCalculationsIndicator": 0,
+  "optionDecisionType": "string",
+  "processId": 1216265615,
+  "instrumentAccounts": [
+    {
+      "accountNumber": "string",
+      "adjustableType": 0,
+	  "amortizationType": 0,
+	  "dataVersionNumber": 0,
+	  "discountMargin": 0,
+      "discountRateMarginTypeCode": 0,
+	  "inflation": "string",
+	  "instrumentType": 0,
+	  "maturityAmount": 0,
+	  "percentSold": 0,
+	  "residualAmount": 0,
+      "amortizationTerm": {
+        "frequency": 0,
+        "multiplier": "string"
+      },
+      "behaviorPattern": {
+        "behaviorPatternEvent": 0,
+        "behaviorSubType": 0,
+        "behaviorType": 0,
+        "devolvementAmount": 0,
+        "devolvementStatus": 0
+      },
+      "deferredAmortization": {
+        "amortizationMethodForPremiumsAndDiscounts": "string",
+        "currentBalance": 0,
+		"originalBalance": 0,
+        "deferredCurrentCost": 0.0,
+        "deferredCurrentFees": 0.0,
+        "deferredCurrentPremiumOrDiscount": 0.0,
+        "deferredOriginalCost": 2750,
+        "deferredOriginalFees": 20000,
+        "deferredOriginalPremiumOrDiscount": -100
+      },
+      "dimension": {
+        "accountType": 0,
+        "currency": "string",
+        "productId": 0
+      },
+      "eirAdjustment": {
+        "accruedInterestTillDate": "string",
+        "additionalFeesEir": 0,
+        "eirInterestTillDate": 0,
+        "expectedCreditLossDoir": 0,
+        "ifrs9StdStageCode": "string",
+        "lastAcctRenegotiatedDate": "string",
+        "lastPrepaymentDate": "string",
+        "modificationFlag": "string",
+        "pociFlag": "string",
+        "prevAodEir": 0,
+        "prevEndingNbv": 0,
+        "reportingAllowance": 0,
+		"prevEndingFees": 0,
+		"prevEndingCost": 0,
+		"prevEndingPremiumOrDiscount": 0,
+		"eirAdjMethodCode": 2,
+		"prevExecutionDate": null,
+		"newAccountFlag": "Y"
+      },
+      "forecastInterestRateRule": {
+        "forecastRateSystemId": 0,
+        "forecastScenarioInterestRate": {
+          "forecasrScenarioRates": {
+            "processDate": "string",
+            "scenarioNumber": 0,
+            "startDate": "string"
+          },
+          "forecastTermInterestRate": {
+            "forecastRates": {
+              "rate": 0,
+              "ratePerEndDate": "string",
+              "ratePerNumber": 0,
+              "ratePerStartDate": "string",
+              "rateTermDays": 0
+            },
+            "term": "string"
+          },
+          "interpolationMethod": 0
+        },
+        "interestRateCode": 0,
+        "interpolationMethodCode": 0,
+        "irrbbscenCodeMap": {
+          "additionalProp1": 0,
+          "additionalProp2": 0,
+          "additionalProp3": 0
+        },
+        "scenarionumSeq": 0
+      },
+      "holidayCalendar": {
+        "holidayCalculationOption": 0,
+        "holidayCalendarCode": 0,
+        "holidayRollingConvention": 0
+      },
+      "instrumentAccountBalances": {
+        "accruedGrossInterest": 0,
+        "accruedNetInterest": 0,
+        "accruedTransferAmount": 0,
+        "beginOfPeriodPrincipalBalance": 0,
+        "endOfPeriodBookBalance": 0,
+        "endOfPeriodPrincipalBalance": 0,
+        "originalPrincipalBalance": 0
+      },
+      "instrumentAccountDates": {
+        "issueDate": "string",
+        "originationDate": "2021-01-15",
+        "maturityDate": "2021-12-31"
+      },
+      "interestRate": {
+        "accrualBasis": 0,
+        "compoundingBasis": 0,
+        "currentGrossInterestRate": 0,
+        "currentNetInterestRate": 0,
+        "interestTimingType": 0,
+        "payEquiCompoundConvCode": 0,
+        "transferRate": {
+          "rate": 0
+        }
+      },
+      "mortgageOffset": {
+        "accountNumber": 0,
+        "expectedBalanceGrowthPercentage": 0,
+        "lastRepriceDateExpectedBalance": 0,
+        "minimumBalance": 0,
+        "moaBalance": 0,
+        "offsetFlag": "string",
+        "offsetPercentage": 0,
+        "originalExpectedBalance": 0
+      },
+      "originalTerm": {
+        "frequency": 0,
+        "multiplier": "string"
+      },
+      "payment": {
+        "behaviourPatternId": 0,
+        "currentPayment": 0,
+        "interestPaymentFrequency": {
+          "frequency": 0,
+          "multiplier": "string"
+        },
+        "lastInterestPaymentDate": "string",
+        "lastPrincipalPaymentDate": "string",
+        "nextInterestPaymentDate": "string",
+        "nextPrincipalPaymentDate": "string",
+        "originalInterestPaymentDate": "string",
+        "originalPaymentAmount": 0,
+        "originalPrincipalPaymentDate": "string",
+        "paymentPatternId": 0,
+        "principalPaymentFrequency": {
+          "frequency": 0,
+          "multiplier": "string"
+        },
+        "remainingNumberOfPayments": 0
+      },
+      "paymentPattern": {
+        "description": "string",
+        "id": 0,
+        "patternEvents": "string",
+        "patternType": "string"
+      },
+      "paymentScheduleEvents": {
+        "interestPaymentAmount": 0,
+        "paymentDate": "string",
+        "paymentType": 0,
+        "principalPaymentAmount": 0,
+        "totalAmount": 0
+      },
+      "repricing": {
+        "interestRateCode": 0,
+        "interestRateMarginGross": 0,
+        "interestRateMarginNet": 0,
+        "irMarginType": 0,
+        "lastRepriceDateBalance": 0,
+        "lastRepricingDate": "string",
+        "netMargin": 0,
+        "nextRepricingDate": "string",
+        "rateCapLife": {
+          "rate": 0
+        },
+        "rateChangeMinimum": {
+          "rate": 0
+        },
+        "rateChangeRounding": 0,
+        "rateChangeRoundingFactor": {
+          "rate": 0
+        },
+        "rateDecreaseLimitCycle": {
+          "rate": 0
+        },
+        "rateFloorLife": {
+          "rate": 0
+        },
+        "rateIncreaseLimitCycle": {
+          "rate": 0
+        },
+        "rateSetLag": "string",
+        "repricingFrequency": {
+          "rate": 0
+        },
+        "repricingPatternCode": 0
+      },
+      "repricingPattern": {
+        "description": "string",
+        "patternType": 0,
+        "repricePatternEvent": [
+          {
+            "balanceType": 0,
+            "day": 0,
+            "eventDetailSeq": [
+              {
+                "eventDtId": 0,
+                "fromBalance": 0,
+                "grossRate": 0,
+                "grossRateMargin": "string",
+                "irc": "string",
+                "netRate": 0,
+                "netRateMargin": "string",
+                "rateCapLife": "string",
+                "rateFloorLife": "string",
+                "rslFrequency": "string",
+                "rslMultiplier": "string",
+                "toBalance": 0,
+                "yctFrequency": "string",
+                "yctMultiplier": "string"
+              }
+            ],
+            "eventId": 0,
+            "frequency": "string",
+            "month": 0,
+            "multiplier": "string",
+            "repeat": "string",
+            "repriceType": 0
+          }
+        ],
+        "sysId": 0
+      },
+      "teaser": {
+        "rateFirstResetCapRate": {
+          "rate": 0
+        },
+        "rateFirstResetFloorRate": {
+          "rate": 0
+        },
+        "teaserEndDate": "string"
+      },
+      "tieredRateInstrument": {
+        "CurrentPrincipalBalance": 0,
+        "OriginalPrincipalBalance": 0,
+        "accruedInterestNet": 0,
+        "adjustableType": 0,
+        "currentNetRate": 0,
+        "forecastInterestRateRule": {
+          "forecastRateSystemId": 0,
+          "forecastScenarioInterestRate": {
+            "forecasrScenarioRates": {
+              "processDate": "string",
+              "scenarioNumber": 0,
+              "startDate": "string"
+            },
+            "forecastTermInterestRate": {
+              "forecastRates": {
+                "rate": 0,
+                "ratePerEndDate": "string",
+                "ratePerNumber": 0,
+                "ratePerStartDate": "string",
+                "rateTermDays": 0
+              },
+              "term": "string"
+            },
+            "interpolationMethod": 0
+          },
+          "interestRateCode": 0,
+          "interpolationMethodCode": 0,
+          "irrbbscenCodeMap": {
+            "additionalProp1": 0,
+            "additionalProp2": 0,
+            "additionalProp3": 0
+          },
+          "scenarionumSeq": 0
+        },
+        "interestRateCode": 0,
+        "interestRateMarginNet": 0,
+        "irMarginType": 0,
+        "lastRepriceBalance": 0,
+        "lastRepriceDate": "string",
+        "lowerBalance": 0,
+        "nextRepriceDate": "string",
+        "rank": 0,
+        "repriceFrequency": 0,
+        "transferRate": 0,
+        "upperBalance": 0,
+        "currentPrincipalBalance": 0,
+        "originalPrincipalBalance": 0
+      }
+    }
+  ]
+}
